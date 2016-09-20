@@ -14,14 +14,15 @@
         android:src="@drawable/lake"
         android:scaleType="centerCrop"
         android:largeHeap="true"
-        />
+        android:contentDescription=""
+        tools:ignore="ContentDescription"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#fff"
         android:textSize="20sp"
-        android:text="Work hard in silence, \nLet your success be your noise."
+        android:text="@string/quotes2"
         android:textStyle="italic"
         android:id="@+id/textView"
         android:layout_marginTop="89dp"
@@ -31,7 +32,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="by Frank Ocean"
+        android:text="@string/figure2"
         android:textColor="#fff"
         android:textStyle="italic"
         android:textSize="19sp"
@@ -52,7 +53,7 @@
         android:layout_alignParentLeft="true"
         android:onClick="pindahLayarKiri"
 
-        />
+        tools:ignore="RtlHardcoded"/>
 
     <Button
         android:id="@+id/btn3"
@@ -62,7 +63,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:onClick="pindahLayarKanan"
-        />
+        tools:ignore="RtlHardcoded"/>
 
 
 </RelativeLayout>

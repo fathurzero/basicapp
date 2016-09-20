@@ -2,4 +2,9 @@
     <string name="app_name">Quotes</string>
     <string name="quotes1">Learn from yesterday,\nLive for today,\nHope for tomorrow</string>
     <string name="figure1">by Albert Einstein</string>
+    <string name="quotes2">Work hard in silence, \nLet your success be your noise.</string>
+    <string name="figure2">by Frank Ocean</string>
+    <string name="quotes3">If you can dream it,\n you can do it.</string>
+    <string name="figure3">by Walt Disney</string>
+
 </resources>
