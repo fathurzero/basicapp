@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Basic App</string>
+    <string name="app_name">Quotes</string>
+    <string name="quotes1">Learn from yesterday,\nLive for today,\nHope for tomorrow</string>
+    <string name="figure1">by Albert Einstein</string>
 </resources>
