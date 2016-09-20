@@ -18,6 +18,6 @@ public class MainActivity extends AppCompatActivity {
     public void pindahLayar(View view) {
         Intent i = new Intent(getApplicationContext(),ActivityDua.class);
         startActivity(i);
-
+        overridePendingTransition(R.anim.push_out_right,R.anim.pull_in_left);
     }
 }
