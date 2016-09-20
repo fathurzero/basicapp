@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#673AB7"
     tools:context="com.okedroid.fathur.basicapp.MainActivity">
     <!-- basic app -->
 
@@ -13,7 +12,6 @@
         android:layout_height="match_parent"
         android:src="@drawable/lake"
         android:scaleType="centerCrop"
-        android:layout_marginTop="16dp"
         android:id="@+id/imageView"/>
 
     <Button
