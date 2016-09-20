@@ -19,7 +19,7 @@ public class ActivityDua extends AppCompatActivity {
             Intent i = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(i);
 
-            overridePendingTransition(R.anim.push_out_left, R.anim.pull_in_right);
+            overridePendingTransition(R.anim.pull_in_right, R.anim.push_out_left);
 
         }
 
