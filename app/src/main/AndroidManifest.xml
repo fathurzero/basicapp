@@ -28,9 +28,12 @@
             android:name=".MainActivity"
             android:label="@string/app_name">
         </activity>
-        <activity android:name=".ActivityDua">
+        <activity android:name=".ActivityDua"
+                  android:label="@string/app_name"
+            >
         </activity>
-        <activity android:name=".ActivityTiga">
+        <activity android:name=".ActivityTiga"
+                  android:label="@string/app_name">
         </activity>
     </application>
 

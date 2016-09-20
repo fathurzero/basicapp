@@ -14,7 +14,7 @@
         android:src="@drawable/lake"
         android:scaleType="centerCrop"
         android:largeHeap="true"
-        android:contentDescription=""
+        android:contentDescription="@string/imageDesc"
         tools:ignore="ContentDescription"/>
 
     <TextView
