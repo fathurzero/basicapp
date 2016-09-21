@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         }
 //fitur back dua kali keluar langsung ke home
         this.doubleBackToExitPressedOnce = true;
-        Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Tekan Back lagi Untuk Keluar", Toast.LENGTH_SHORT).show();
 
         new Handler().postDelayed(new Runnable() {
 
